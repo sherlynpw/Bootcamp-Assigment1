@@ -1,5 +1,3 @@
-# test = 'ATGACGTGGaX-'
-
 def CountDNA(sequence):
     proofread_sequence = sequence.upper() #to proofread in case there's nucleotide written in lowercase
     print ('A: {} '.format(proofread_sequence.count('A')))
